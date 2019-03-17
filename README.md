@@ -1,5 +1,3 @@
-
-
 This configuration will improve the security of Firefox
 
 1- open firefox
@@ -17,6 +15,8 @@ security.tls.version.min;3
 security.tls.version.max;4
 
 security.mixed_content.block_display_content;true
+
+security.mixed_content.block_object_subrequest;true
 
 security.ssl.require_safe_negotiation true
 
