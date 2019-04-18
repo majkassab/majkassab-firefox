@@ -6,7 +6,7 @@ This configuration will improve the security of Firefox
 
 3-Seach and edit the following settings:
 
-=========================
+=========== Level 1 ===========
 
 security.pki.distrust_ca_policy;2
 
@@ -32,7 +32,7 @@ dom.serviceWorkers.enabled;false //about:serviceworkers
 
 network.IDN_show_punycode;true
 
-=========================
+=========== Level 2 ===========
 
 security.ssl3.rsa_des_ede3_sha;false
 
@@ -44,7 +44,7 @@ security.OCSP.require;true
 
 security.ssl.treat_unsafe_negotiation_as_broken;true
 
-=========================
+=========== Level 3 ===========
 
 media.peerconnection.enabled;false
 
