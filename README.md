@@ -28,11 +28,13 @@ network.trr.uri;https://mozilla.cloudflare-dns.com/dns-query
 
 network.trr.bootstrapAddress;1.1.1.1
 
-dom.serviceWorkers.enabled;false //about:serviceworkers
+network.security.esni.enabled;true
 
 network.IDN_show_punycode;true
 
 =========== Level 2 ===========
+
+dom.serviceWorkers.enabled;false //about:serviceworkers
 
 security.ssl3.rsa_des_ede3_sha;false
 
