@@ -6,7 +6,7 @@ This configuration will improve the security of Firefox
 
 3-Seach and edit the following settings:
 
-=========== Level 1 ===========
+=========== Level 1 - Comfortable Protection ===========
 
 security.pki.distrust_ca_policy;2
 
@@ -32,7 +32,7 @@ network.security.esni.enabled;true
 
 network.IDN_show_punycode;true
 
-=========== Level 2 ===========
+=========== Level 2 - High Protection ===========
 
 dom.serviceWorkers.enabled;false //about:serviceworkers
 
@@ -46,7 +46,7 @@ security.OCSP.require;true
 
 security.ssl.treat_unsafe_negotiation_as_broken;true
 
-=========== Level 3 ===========
+=========== Level 3 - Paranoid Protection ===========
 
 media.peerconnection.enabled;false
 
