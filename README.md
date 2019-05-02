@@ -50,6 +50,8 @@ dom.battery.enabled;false
 
 dom.event.clipboardevents.enabled;false
 
+extensions.pocket.enabled;false
+
 =========== Level 3 - Paranoid Protection ===========
 
 media.peerconnection.enabled;false
