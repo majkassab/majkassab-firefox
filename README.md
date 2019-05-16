@@ -34,8 +34,6 @@ network.IDN_show_punycode;true
 
 =========== Level 2 - High Protection ===========
 
-dom.serviceWorkers.enabled;false //about:serviceworkers
-
 security.ssl3.rsa_des_ede3_sha;false
 
 security.ssl3.rsa_aes_128_sha;false
@@ -48,25 +46,35 @@ security.ssl.treat_unsafe_negotiation_as_broken;true
 
 dom.battery.enabled;false
 
-dom.event.clipboardevents.enabled;false
-
 extensions.pocket.enabled;false
 
+privacy.resistFingerprinting;true
+
+privacy.firstparty.isolate;true
+
+privacy.trackingprotection.fingerprinting.enabled;true
+
+privacy.trackingprotection.cryptomining.enabled;true
+
+webgl.disabled;true
+
+browser.cache.offline.enable;false
+
+browser.safebrowsing.malware.enabled;false
+
+browser.safebrowsing.phishing.enabled;false
+
 =========== Level 3 - Paranoid Protection ===========
+
+dom.event.clipboardevents.enabled;false
+
+dom.serviceWorkers.enabled;false //about:serviceworkers
 
 media.peerconnection.enabled;false
 
 media.navigator.enabled;false
 
-webgl.disabled;true
-
-privacy.firstparty.isolate;true
-
 privacy.firstparty.isolate.restrict_opener_access=false
-
-privacy.resistFingerprinting;true
-
-dom.battery.enabled;false
 
 dom.battery.enabled;false
 
@@ -78,14 +86,6 @@ network.http.referer.XOriginPolicy;2
 
 network.http.referer.XOriginTrimmingPolicy;2
 
-browser.cache.offline.enable
-
 browser.sessionstore.privacy_level;2
 
-browser.safebrowsing.malware.enabled;false
-
-browser.safebrowsing.phishing.enabled;false
-
 geo.enabled;false
-
-webgl.disabled;true
