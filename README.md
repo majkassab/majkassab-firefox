@@ -58,6 +58,8 @@ privacy.trackingprotection.cryptomining.enabled;true
 
 webgl.disabled;true
 
+browser.send_pings;false
+
 browser.cache.offline.enable;false
 
 browser.safebrowsing.malware.enabled;false
