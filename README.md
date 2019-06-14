@@ -93,8 +93,13 @@ browser.sessionstore.privacy_level;2
 geo.enabled;false
 
 security.ssl3.dhe_rsa_aes_128_sha;false
+
 security.ssl3.dhe_rsa_aes_256_sha;false
+
 security.ssl3.ecdhe_ecdsa_aes_128_sha;false
+
 security.ssl3.ecdhe_ecdsa_aes_256_sha;false
+
 security.ssl3.ecdhe_rsa_aes_128_sha;false
+
 security.ssl3.ecdhe_rsa_aes_256_sha;false
